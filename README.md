@@ -11,7 +11,8 @@ There's an alternative option: the bitnami/minio but it is VERY slow to start, s
 ```yaml
 services:
     minio:
-    image: fclairamb/minio-github-actions
+    image: rachel.sh/github-actions/minio:RELEASE.2021-06-07T21-40-51Z
+    # private repo
     ports:
         - 9000:9000
 ```
